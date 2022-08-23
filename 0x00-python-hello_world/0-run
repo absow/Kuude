@@ -2,4 +2,3 @@
 
 export MYFILE=main.py
 
-echo $MYFILE
