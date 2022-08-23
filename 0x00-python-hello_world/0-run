@@ -1,4 +1,16 @@
 #!/bin/bash
 
+cat << EOF > main.py
+#!/usr/bin/python3 -tt 
+
+print("Hello World")
+
+EOF
+
+chmod 775 main.py 
+./main.py
+
 export MYFILE=main.py
+
+exit 0
 
