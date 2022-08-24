@@ -8,4 +8,4 @@ if number > 0:
 elif number == 0:
     print("{:d} is zero\n" .format(number))
 else:
-    print("{:d} is positive\n" .format(number))
+    print("{:d} is negative\n" .format(number))
