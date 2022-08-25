@@ -7,12 +7,11 @@ if last >= 6 and number > 0:
     print("Last digit of {} is {} and is greater than 5" .format(number, last))
 elif last >= 6 and number < 0:
     print("Last digit of {} is {} and is greater than 5" .format(number, -abs(last)))
-elif last == 0 and number > 0:
-    print("Last digit of {} is {} and is 0" .format(number, last))
-elif last == 0 and number < 0:
-    print("Last digit of {} is {} and is 0" .format(number, -abs(last)))
-elif last < 6 and number > 0:
+elif last < 6 and last != 0 and number > 0:
     print("Last digit of {} is {} and is less than 6 and not 0" .format(number, last))
-elif:
+elif last <6 and last != 0 and number < 0:
     print("Last digit of {} is {} and is less than 6 and not 0" .format(number, -abs(last)))
+else:
+    print("Last digit of {} is {} and is 0".format(number, last)
+
 
