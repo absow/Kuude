@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
-import sys
 
 if __name__ == "__main__":
-    print(f"Arguments: {len(sys.argv)}")
-    for i, arg in enumerate(sys.argv):
-        print(f"Argument {i}: {arg}")
-
-
+    import sys
+print(f"{len(sys.argv) -1} argument:")
+arguments = len(sys.argv) - 1
+position = 1
+while (arguments >= position):
+    print("%i: %s" % (position, sys.argv[position]))
+    position = position + 1
 
