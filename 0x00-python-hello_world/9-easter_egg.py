@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-book = "The Zen of Python"
-autho = "Tim Peters"
-print(f"{book}, by {author}")
+str = "The Zen of Python, by Tim Peters"
+str = str[0:32]
+print(str)
 
