@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-def add_attribute(obj, name, value):
-    """ Function that adds a new attribute to an object
-    Args:
-        obj: object
-        name: attribute name
-        value: attribute value
-    Raises:
-        TypeError: when the attribute can't be added
-    """
+""" class MyInt that inherits from int:
+"""
 
-    if not hasattr(obj, "__dict__"):
-        raise TypeError("can't add new attribute")
-    setattr(obj, name, value)
+
+class MyInt(int):
+    """ Class """
+    def __eq__(self, other):
+        return int(str(self)) != other
+
+    def __ne__(self, other):
+        return int(str(self)) == other
