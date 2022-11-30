@@ -1,1 +1,1 @@
-const = "Jvasript is amazing"
+const = "Jvasript is amazing"; 
